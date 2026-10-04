@@ -7,19 +7,35 @@
 # Write pseudocode, not Python code. Use clear indentation and course-appropriate
 # keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
+# MOVEMENT LOGIC PSEUDOCODE IMPLEMENTATION
+
 # TODO 1: Identify the information the movement process needs.
-# Consider the player's current room and movement command.
+# The process needs the player's current_room and the game's map layout configuration.
 
-# TODO 2: Prompt for and receive the player's movement command.
+# TODO 6: Show how movement fits into repeated gameplay loop.
+WHILE game_is_running IS TRUE DO
 
-# TODO 3: Validate whether the requested movement is possible from the
-# current room. Show the decision clearly.
+    # TODO 2: Prompt for and receive the player's movement command.
+    OUTPUT "Enter a direction to move (North, South, East, West) or 'Exit':"
+    INPUT player_command
+    
+    IF player_command EQUALS "Exit" THEN
+        SET game_is_running = FALSE
+        OUTPUT "Thanks for playing!"
+        BREAK
+    ENDIF
 
-# TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
+    # TODO 3: Validate whether the requested movement is possible from the current room.
+    IF player_command IS IN current_room.exits THEN
+    
+        # TODO 4: Describe what happens when the movement command is valid.
+        SET current_room = current_room.exits[player_command]
+        OUTPUT "Success! You have successfully moved to the: " + current_room.name
+        OUTPUT "Room Description: " + current_room.description
+        
+    ELSE
+        # TODO 5: Describe what happens when the movement command is invalid.
+        OUTPUT "Invalid Move! You cannot go that way from here. Try a different direction."
+    ENDIF
 
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
-
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+ENDWHILE
