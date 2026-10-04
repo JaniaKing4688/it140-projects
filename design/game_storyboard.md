@@ -7,25 +7,24 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Sci-Fi / Rogue AI Malfunction
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The ship's rogue mainframe AI has locked down the vessel and initiated a terminal countdown. As the chief engineer aboard, you wake up alone in the Crew Quarters. You must navigate the hazardous decks of the space station to gather specialized repair tools, power units, and security access codes. Only when you have collected all six essential items can you safely override the mainframe in the AI core to disable the rogue entity and save the ship. Encountering the rogue AI before gathering your full toolkit will result in an immediate systems termination.
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. Crew Quarters (Start room)
+2. Hydroponics Lab
+3. Science Bay
+4. Comm Center
+5. Storage Deck
+6. Engineering Bay
+7. Navigation Deck
+8. AI Main Core (Villain room)
 
 Add more rooms if your design needs them.
 
@@ -34,19 +33,20 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Hydro-Wrench (Located in Hydroponics Lab)
+2. Plasma Welder (Located in Science Bay)
+3. Encryption Key (Located in Comm Center)
+4. Power Cell (Located in Storage Deck)
+5. Warp Core Fust (Located in Engineering Bay)
+6. Override Card (Located in Navigation Deck)
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+Villain: The Rogue Mainframe AI ("A.R.I.A.")
+Description: A corrupted central artificial intelligence system that controls the station's automated defense turrets and life support networks.
 
 ## Storyboard and Map Check
 
